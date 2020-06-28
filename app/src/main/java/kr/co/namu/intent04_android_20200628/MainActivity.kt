@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             // Ex. 입력-01012345678 => tel:01012345678로 가공해주는 기능
             val myUri = Uri.parse("tel:${inputPhoneNum}")
 
-//            DIAL액션 사용 준비
+//            DIAL액션 사용 준비k
             val myIntent = Intent(Intent.ACTION_DIAL, myUri)
 
             startActivity(myIntent)
